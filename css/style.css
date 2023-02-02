@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    color: red;
+}
+
+@media screen and (max-width:1000px) {
+    #resetpa {
+        height: 50px;
+    }
+}
+
+#resetpa:hover {
+    background-color: #F88634;
+    color: white;
+}
+
 section {
     position: relative;
     width: 100%;
